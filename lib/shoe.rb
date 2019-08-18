@@ -12,6 +12,8 @@ class Shoe
   def brand=(brand)
     @brand = brand
     BRANDS << brand.uniq
+  end
+end
   
   def cobble
     puts "Your shoe is as good as new!"
