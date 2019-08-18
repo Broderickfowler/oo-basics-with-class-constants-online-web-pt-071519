@@ -13,7 +13,6 @@ class Shoe
     @brand = brand
     BRANDS << brand.uniq
   end
-end
   
   def cobble
     puts "Your shoe is as good as new!"
