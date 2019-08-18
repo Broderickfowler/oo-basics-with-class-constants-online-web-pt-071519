@@ -21,7 +21,7 @@ describe 'Shoe' do
         Shoe.new(brand)
       end
 
-      expect(Shoe::BRANDS.size).to eq(5)
+      expect(Shoe::BRANDS.size).to eq(7)
     end
   end
 end
